@@ -4,18 +4,21 @@
   <div class="chatapp">
     <thread-section></thread-section>
     <message-section></message-section>
+    <Now-section></Now-section>
   </div>
 </template>
 
 <script>
 import ThreadSection from './ThreadSection.vue'
 import MessageSection from './MessageSection.vue'
+import NowSection from './now.vue'
 
 export default {
   name: 'App',
   components: {
     ThreadSection,
-    MessageSection
+    MessageSection,
+    NowSection
   }
 }
 </script>
